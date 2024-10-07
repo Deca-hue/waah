@@ -16,7 +16,7 @@
   @media (max-width: 480px) {
     
     .hero {
-      height: 50vh;
+      height: 25vh;
     }
   
     .hero h2 {
@@ -42,7 +42,7 @@ body, h1, h2, p, ul {
   }
   
   header {
-    background: #4b2202;
+    background: #6d3002;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -62,11 +62,14 @@ body, h1, h2, p, ul {
     color: #fff;
     text-decoration: none;
   }
-  
+  header nav ul li a:hover {
+    color: red;
+    
+  }
   /* hero styling */
   .hero {
-    background: url('imagesv/download\ \(2\).jfif') no-repeat center/cover;
-    color: #e6e4e2;
+    background: url("") no-repeat center/cover;
+    color: #6d3002;
     height: 50vh;
     width: 100%;
     display: flex;
