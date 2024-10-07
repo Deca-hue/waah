@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-    <nav>
+    <nav class="large-screen-nav">
       <h1>VINTAGE CAFE</h1>
       <ul>
         <li><a href="#home">Home</a></li>
@@ -19,9 +19,20 @@
         <li><a href="#order">order</a></li>
       </ul>
     </nav>
+    <nav class="small-screen-nav">
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
+  <div class="image">
    <li><img src="vintage cafe AI version 1.png" alt="VINTAGE" style="width: 100px; float: right;"></li>
-
+</div>
   <section id="home" class="hero">
     <h2>Welcome to Our Coffee Shop</h2>
     <p>Enjoy the best coffee in town</p>
@@ -47,6 +58,6 @@
   <footer>
     <p>Contact us at: info@vintagecafe.com</p>
   </footer>
- 
+ <script src="land.js"></script>
 </body>
 </html>
